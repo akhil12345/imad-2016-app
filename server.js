@@ -28,9 +28,7 @@ var articles=
     heading: 'Article Two',
     date:'Sep 10 2016',
     content: `
-    <p>
-    This is the content for my second article.This is the content for my second article.
-   </p>
+    
     },
     
    'article-Three':{
