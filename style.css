@@ -1,0 +1,102 @@
+body {
+  font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+  background-color: #D3D3D3;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+ul, ol, dl { 
+  padding: 0;
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+  padding-right: 15px;
+  padding-left: 15px; 
+}
+a img { border: none;
+}
+a:link {
+  color: #42413C;
+  text-decoration: underline; 
+}
+a:visited {
+  color: #6E6C64;
+  text-decoration: underline;
+}
+a:hover, a:active, a:focus { text-decoration: none;
+}
+.container {
+  width: 960px;
+  background-color: #FFF;
+  margin: 0 auto; }
+.header {
+  background-color: #ADB96E;
+}
+
+
+.content {
+
+  padding: 10px 0;
+}
+.footer {
+  padding: 10px 0;
+  background-color: #CCC49F;
+}
+
+.fltrt { float: right;
+  margin-left: 8px;
+}
+.fltlft { float: left;
+  margin-right: 8px;
+}
+.clearfloat { clear:both;
+  height:0;
+  font-size: 1px;
+  line-height: 0px;
+}
+
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+
+
+.imgcontainer {
+    text-align: center;
+}
+
+
+
+.container {
+    padding: 10px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
